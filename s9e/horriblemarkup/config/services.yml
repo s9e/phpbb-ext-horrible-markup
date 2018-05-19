@@ -1,0 +1,5 @@
+services:
+  s9e.horriblemarkup.listener:
+    class: s9e\horriblemarkup\listener
+    tags:
+      - { name: event.listener }
